@@ -1,0 +1,39 @@
+@mixin ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin full {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin p-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@mixin before {
+  content: '';
+  display: block;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-start-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@mixin flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
